@@ -1,0 +1,19 @@
+<!--pages/list/list.wxml-->
+<swiper class = "swiper-container" indicator-dots indicator-color="blue" autoplay interval="1000" circular>
+  <swiper-item>
+    <view class = "item">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class = "item">B</view>
+  </swiper-item>
+  <swiper-item>
+    <view class = "item">C</view>
+  </swiper-item>
+</swiper>
+<view class="container1">
+    手机号码长按复制：
+    <text selectable>13822222000000</text>
+</view>
+<rich-text nodes= "<h1 style = 'color:red;'>标题</h1>"></rich-text>
+<view>{{info}}</view>
+<button type = 'primary' bingtap = "changeDate">按键 +1</button>

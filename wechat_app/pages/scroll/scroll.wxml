@@ -1,0 +1,8 @@
+<!--pages/scroll/scroll.wxml-->
+<view>水平方向滚动</view>
+<scroll-view scroll-x="{{true}}">
+  <view class="Horizonal">111111</view>
+  <view class="Horizonal">666666</view>
+  <view class="Horizonal">333333</view>
+</scroll-view>
+<view>竖直方向滚动</view>

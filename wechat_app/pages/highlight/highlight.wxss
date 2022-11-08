@@ -1,0 +1,15 @@
+/* pages/highlight/highlight.wxss */
+.box{
+  display: flex;
+  flex-direction: row;
+}
+.box .item {
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: red;
+}
+.inputBox {
+  border: 2rpx solid black;
+}

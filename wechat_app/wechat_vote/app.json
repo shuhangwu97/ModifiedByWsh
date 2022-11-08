@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/show/show",
+    "pages/help/help",
+    "pages/program/program",
+    "pages/vote/vote",
+    "pages/admin/admin",
+    "pages/participant",
+    "pages/jury/jury",
+    "pages/order/order",
+    "pages/subscribe/subscribe",
+    "pages/advice/advice",
+    "pages/matchSet/matchSet"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "泛亚汽车技术中心",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar" :{
+    "list":[
+    {
+        "pagePath": "pages/show/show",
+        "text": "项目详情",
+        "iconPath": "images/contact.png",
+        "selectedIconPath": "images/contact-active.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home-active.png"
+    },
+    {
+      "pagePath": "pages/help/help",
+      "text": "帮助",
+      "iconPath": "images/message.png",
+      "selectedIconPath": "images/message-active.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

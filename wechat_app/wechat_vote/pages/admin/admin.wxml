@@ -1,0 +1,11 @@
+<!--pages/admin/admin.wxml-->
+<view class="button_admin">
+  <button class= "btn_new" bindtap="gotoSet_match">
+    <text>新发布比赛</text>
+  </button>
+  <button class="btn_old">
+    <text>已发布比赛</text>
+  </button>
+</view>
+
+

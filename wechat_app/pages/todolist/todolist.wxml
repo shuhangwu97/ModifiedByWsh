@@ -1,0 +1,14 @@
+<!--pages/todolist/todolist.wxml-->
+<view>
+  <view class="add">
+    <input bindinput="HandleAdd" value="{{newData}}"/>
+    <button bindtap="HandleTap">add</button>
+  </view>
+  <view wx:if="{{!List.length==0}}">
+    <view wx:for="{{List}}" wx:key="index" class='deleteLine' >
+    <text>{{item}}</text>
+    <button data-myid="{{index}}" bindtap="HandleDelete">delete{{index}}</button>
+    </view>
+  </view>
+  <view wx:else class='empty'>暂无代办事项</view>
+</view>

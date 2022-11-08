@@ -1,0 +1,5 @@
+function HandleDate(time) {
+  var  otime = getDate(time);
+  return otime.getMonth();
+}
+module.exports = HandleDate

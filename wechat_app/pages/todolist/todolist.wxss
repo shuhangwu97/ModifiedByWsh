@@ -1,0 +1,17 @@
+/* pages/todolist/todolist.wxss */
+.add {
+  display: flex;
+  align-items: center;
+}
+.add input {
+  border: 1rpx solid black;
+}
+.deleteLine {
+  display: flex;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.empty {
+  font-size: 48rpx;
+  color: red;
+}

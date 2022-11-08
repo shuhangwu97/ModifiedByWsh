@@ -1,0 +1,6 @@
+/* pages/scroll/scroll.wxss */
+.Horizonal {
+  display: flex;
+  flex-direction: row;
+  width: 300rpx;
+}

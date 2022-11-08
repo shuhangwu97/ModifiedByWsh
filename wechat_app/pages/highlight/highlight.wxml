@@ -1,0 +1,18 @@
+<!--pages/highlight/highlight.wxml-->
+<wxs src="./highlight.wxs" module="HandleDate"></wxs>
+<wxs src="./Filter.wxs" module="HandleFilter"></wxs>
+<view  class="box">
+  <view wx:for="{{GM}}" wx:key="index" class="item {{current===index?'active':''}}"  data-myid="{{index}}" bindtap="HandleClick">
+    <text>{{item}}</text>
+  </view>
+</view>
+<view>
+  <text>{{HandleDate(startTime)}}</text>
+</view>
+<view>
+  <input bindinput='Handleinput' class='inputBox'/>
+  <view wx:for ="{{HandleFilter(GM, inputValue)}}" wx:key="index">
+    {{item}} 
+  </view>
+</view>
+

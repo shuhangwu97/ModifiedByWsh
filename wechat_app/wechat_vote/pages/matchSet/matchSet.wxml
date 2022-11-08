@@ -1,0 +1,33 @@
+<!--pages/matchSet/matchSet.wxml-->
+<view>
+  <view class='matchLine'>
+    <text>比赛名称：</text>
+    <input bindinput="setMatch_name" class="inputBox" name="Match_name"></input>
+  </view>
+  <view class='matchLine'>
+    <text>报名时间：</text>
+    <input bindinput="setMatch_deadline" class="inputBox"></input>
+  </view>
+  <view class='matchLine'>
+    <text>比赛时间：</text>
+    <input bindinput="setMatch_time" class="inputBox"></input>
+  </view>
+  <view class='matchLine'>
+    <text>主办部门：</text>
+    <input bindinput="setMatch_partment" class="inputBox"></input>
+  </view>
+  <view class="matchLine">
+    <text>比赛简介：</text>
+    <textarea bindinput="setMatch_intro" auto-focus="true"></textarea>
+  </view>
+  <view class='matchLine'>
+    <text>附件上传：</text>
+    <button class="uploadBtn" bindtap="{{uplodaImg}}">
+      <text>点此上传</text>
+    </button>
+  </view>
+  <matchInfo>
+    <button slot="RlseBtn" bindtap="handleRlse"  class="RlseBtn">发布比赛</button>
+  </matchInfo>
+  
+</view>

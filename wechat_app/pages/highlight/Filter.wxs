@@ -1,0 +1,6 @@
+function HandleFilter(gm, value) {
+  return gm.filter(function (item) {
+    return (item.indexOf(value)>(-1))
+  })
+}
+ module.exports = HandleFilter
